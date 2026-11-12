@@ -1,0 +1,5 @@
+.venv/
+data/
+papers/
+runs/**/*.pt
+__pycache__/
