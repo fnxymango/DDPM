@@ -1,9 +1,0 @@
-t=1	abar=0.99990	signal=0.9999	noise=0.0100
-t=51	abar=0.96995	signal=0.9849	noise=0.1733
-t=101	abar=0.89514	signal=0.9461	noise=0.3238
-t=201	abar=0.65635	signal=0.8102	noise=0.5862
-t=401	abar=0.19357	signal=0.4400	noise=0.8980
-t=601	abar=0.02557	signal=0.1599	noise=0.9871
-t=801	abar=0.00151	signal=0.0388	noise=0.9992
-t=1000	abar=0.00004	signal=0.0064	noise=1.0000
-
