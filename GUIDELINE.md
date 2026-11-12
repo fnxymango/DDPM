@@ -59,6 +59,6 @@ AI는 설명하고 검사하는 튜터, 코드를 쓰고 판단하는 것은 나
 | 2. 수식 | Claude가 학습 노트 작성: `docs/notes_stage1-3.md` 2절 (식 4 유도표, 식 3→14) | 노트에 혼자 유도 (직접해야함) |
 | 3. 점검 | Claude가 점검 질문 7개 작성: `docs/notes_stage1-3.md` 3절 | 내 말로 답하고 AI 지적 1개 이하 확인 (직접해야함) |
 | 4. 구현 1 | Claude가 코드 작성·실행: `ddpm/diffusion.py`, `scripts/forward_vis.py` → `runs/forward/` | 코드 읽고 이해 확인, 필요하면 직접 다시 작성 (직접해야함) |
-| 5. 구현 2 | Claude가 코드 작성·실행 중: `ddpm/unet.py`, `scripts/train.py` → `runs/mnist/` | 코드 이해 확인, 샘플이 숫자 형태인지 판정 (직접해야함) |
-| 6. 적용 | Claude가 코드 작성·실행 예정: `scripts/eval_pneumonia.py` → `runs/pneumonia/` | 평가 방법의 적합성 판단, 결과·한계 해석 (직접해야함) |
+| 5. 구현 2 | Claude가 코드 작성·실행 완료 (20k스텝, 46분, 최종 loss 0.0218): `ddpm/unet.py`, `scripts/train.py` → `runs/mnist/` | 코드 이해 확인, 샘플이 숫자 형태인지 판정 (직접해야함) |
+| 6. 적용 | Claude가 코드 작성·실행 완료 (20k스텝, 최종 loss 0.0216, 5k·20k 체크포인트 평가): `scripts/eval_pneumonia.py` → `runs/pneumonia/eval_*/` | 평가 방법의 적합성 판단, 결과·한계 해석 (직접해야함) |
 | 7. 보고서 | 시작 전 | 기록 검토 후 초안 요청·수정 (직접해야함) |
