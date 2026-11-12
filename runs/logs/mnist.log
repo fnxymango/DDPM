@@ -1,0 +1,22 @@
+train images=60000 params=11.25M
+step 1000 loss 0.0298 130s
+step 2000 loss 0.0266 248s
+step 3000 loss 0.0244 369s
+step 4000 loss 0.0240 489s
+step 5000 loss 0.0237 637s
+step 6000 loss 0.0235 769s
+step 7000 loss 0.0226 890s
+step 8000 loss 0.0231 1004s
+step 9000 loss 0.0224 1132s
+step 10000 loss 0.0224 1274s
+step 11000 loss 0.0226 1469s
+step 12000 loss 0.0219 1572s
+step 13000 loss 0.0221 1736s
+step 14000 loss 0.0224 1844s
+step 15000 loss 0.0221 1978s
+step 16000 loss 0.0226 2178s
+step 17000 loss 0.0215 2305s
+step 18000 loss 0.0219 2431s
+step 19000 loss 0.0219 2557s
+step 20000 loss 0.0218 2649s
+done 2736s

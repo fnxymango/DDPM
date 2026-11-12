@@ -1,0 +1,3 @@
+train images=60000 params=11.25M
+done 137s
+EXIT 0

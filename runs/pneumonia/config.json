@@ -1,0 +1,10 @@
+{
+  "dataset": "pneumonia",
+  "steps": 20000,
+  "bs": 128,
+  "lr": 0.0002,
+  "ema": 0.9995,
+  "seed": 0,
+  "sample_every": 5000,
+  "out": "runs/pneumonia"
+}
